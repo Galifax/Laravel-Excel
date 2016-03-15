@@ -513,7 +513,11 @@ class ExcelParser {
          * Changing getCalculatedValue to getOldCalculatedValue
          * for some reasons
          * */
-        $value = $this->cell->getOldCalculatedValue();
+        if($this->cell->getDatatype() == 'f') {
+            $value = $this->cell->getOldCalculatedValue();
+        } else {
+            $value = $this->cell->getCalculatedValue();
+        }
 
         return $this->encode($value);
     }
