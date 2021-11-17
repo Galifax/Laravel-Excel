@@ -20,11 +20,11 @@
   "require": {
     "php": ">=5.5",
     "phpoffice/phpexcel": "1.8.*",
-    "illuminate/cache": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/config": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/support": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "nesbot/carbon": "1.32.0 as 1.25.0",
+    "illuminate/cache": "5.7.*",
+    "illuminate/config": "5.7.*",
+    "illuminate/filesystem": "5.7.*",
+    "illuminate/support": "5.7.*",
+    "nesbot/carbon": "5.7.*",
     "tijsverkoyen/css-to-inline-styles": "~1.5"
   },
   "require-dev": {
@@ -34,10 +34,10 @@
     "orchestra/testbench": "3.1.*"
   },
   "suggest": {
-    "illuminate/http": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/view": "5.0.*|5.1.*|5.2.*|5.7.*",
-    "illuminate/queue": "5.0.*|5.1.*|5.2.*|5.7.*"
+    "illuminate/http": "5.7.*",
+    "illuminate/routing": "5.7.*",
+    "illuminate/view": "5.7.*",
+    "illuminate/queue": "5.7.*"
   },
   "autoload": {
     "classmap": [
